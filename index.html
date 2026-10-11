@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="tg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080612">
+  <meta name="description" content="Як дил, садҳо забон, як муҳаббат.">
+  <title>LoveWorld — A Heart Without Borders</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-glow"></div>
+  <canvas id="stars"></canvas>
+
+  <header class="topbar">
+    <a class="logo" href="#">
+      <span class="logo-heart">♥</span>
+      Love<span>World</span>
+    </a>
+
+    <div class="header-tag">ONE HEART. EVERY LANGUAGE.</div>
+
+    <button id="surpriseBtn" class="surprise-btn">
+      Surprise me <span>♡</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">
+        <span class="live-dot"></span>
+        LOVE HAS NO BORDERS
+      </div>
+
+      <h1>
+        One feeling.<br>
+        <span>Infinite languages.</span>
+      </h1>
+
+      <p class="description">
+        Як дил, садҳо забон, як маъно.
+        Бигзор муҳаббат тамоми ҷаҳонро пайваст кунад.
+      </p>
+
+      <div class="stage">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="heart-halo"></div>
+
+        <canvas id="heartCanvas"></canvas>
+
+        <div class="center-message">
+          <div class="center-small">THREE WORDS. ONE WORLD.</div>
+          <div class="center-love" id="mainLove">
+            Ман туро дӯст медорам
+          </div>
+          <div class="center-language" id="mainLanguage">
+            TAJIK · ТОҶИКӢ
+          </div>
+        </div>
+
+        <div class="floating-note note-one">I love you ♡</div>
+        <div class="floating-note note-two">Te amo ✦</div>
+        <div class="floating-note note-three">Je t’aime ♡</div>
+        <div class="floating-note note-four">愛してる ✧</div>
+      </div>
+
+      <div class="actions">
+        <button id="heartBtn" class="primary-btn">
+          <span>♥</span> Create the love
+        </button>
+
+        <button id="pauseBtn" class="secondary-btn">
+          <span>Ⅱ</span> Pause animation
+        </button>
+      </div>
+
+      <p class="hint">✦ Move your mouse to explore the heart ✦</p>
+    </section>
+
+    <section class="language-section">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">A WORLD OF FEELINGS</div>
+          <h2>Love speaks <span>everywhere.</span></h2>
+        </div>
+        <span class="language-count" id="languageCount">
+          24 expressions
+        </span>
+      </div>
+
+      <div class="language-grid" id="languageGrid"></div>
+    </section>
+
+    <section class="message-section">
+      <div class="message-card">
+        <span class="quote-mark">“</span>
+        <p id="quoteText">
+          Муҳаббат забон намепурсад.
+          Онро дил мефаҳмад.
+        </p>
+        <button id="quoteBtn" class="text-btn">
+          Another message ↗
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo footer-logo" href="#">♥ LoveWorld</a>
+    <p>Made with love, for every heart in the world.</p>
+    <span>HTML · CSS · JavaScript</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
